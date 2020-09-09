@@ -25,6 +25,10 @@ For this to work you will need the following Arduino Libraries:
 
 All of which are available in the Arduino IDE.
 
+You will need to find out the RC Message sent to your socket with an RC receiver and the switch you are using. 
+
+Copy config_sample.h to config.h and input your username and password for your MQTT broker.
+
 ## 4. Usage
 
 I built this device to enable and disable my RC Socket that is responsible for the power connection to my PC. I did connect it with a module inside my PC, so starting and stopping my setup will correspond to enable RC Socket, turn on PC or turn off PC - wait until it is shutdown, disable RC Socket. I use Node-Red for the mapping of Inputs like Alexa to the corresponding outputs like this RC Socket or my PC Switch. 
