@@ -1,4 +1,4 @@
-# PC Switch
+# RC Socket Switch
 
 ## 1. Motivation
 
